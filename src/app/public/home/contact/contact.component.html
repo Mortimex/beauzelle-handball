@@ -1,0 +1,19 @@
+<div  data-aos="flip-down">
+  <div class="titre-contact">
+    <h2 >Contact</h2>
+  </div>
+  <div class="div-message">
+    <h3 class="introcontact">Veuillez remplir ce formulaire pour pouvoir nous contacter </h3>
+    <form >
+      <div class="objet">
+        <label for="objet">Objet :</label>
+        <input id="objet" name="user_objet"/>
+      </div>
+      <div class="msg">
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <a [href]="this.envoyerMail()" class="btnenvoie" data-aos="zoom-in">Envoyer</a>
+    </form>
+  </div>
+</div>

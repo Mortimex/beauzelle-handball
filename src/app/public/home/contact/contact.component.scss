@@ -1,0 +1,50 @@
+.titre-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  color: white;
+  background-color: black;
+  margin-top: 2em;
+  margin-bottom: 1em;
+
+  & h2{
+    font-size: 4em;
+  }
+}
+
+.div-message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.introcontact{
+  font-size: 3vh;
+}
+
+.objet{
+  font-size: 2vh;
+  margin-bottom: 1em;
+}
+
+.msg{
+  font-size: 2vh;
+  margin-bottom: 1.3em;
+}
+
+.btnenvoie{
+  display:block;
+  font-size: 1.5em;
+  width: 150px;
+  line-height: 50px;
+  text-align:center;
+  vertical-align:middle;
+  background:url('http://css.mammouthland.net/images/boutonnoir2.png') no-repeat;
+  color:white;
+  text-decoration:none;
+}
+

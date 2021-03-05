@@ -1,0 +1,28 @@
+.container{
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+
+  & img{
+    width: 7%;
+    height: 64%;
+  }
+
+  & h1{
+    width: 80%;
+    font-size: 7em;
+    text-align: center;
+  }
+
+  & .club{
+    font-size: 2em;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+}
+
+

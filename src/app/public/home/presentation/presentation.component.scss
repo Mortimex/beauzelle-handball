@@ -1,0 +1,34 @@
+.container-pres{
+  width: 100%;
+  display: flex;
+
+  & .img-club{
+    background-image: url("~src/assets/img/tournoi.jpg");
+    width: 142%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h2{
+      font-family: Centaur;
+      font-size: 7em;
+      text-decoration: underline;
+      color: white;
+    }
+  }
+
+  & .div-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & p{
+      font-size: 1.5em;
+      margin-left: 2em;
+    }
+  }
+}
+
